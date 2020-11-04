@@ -2,7 +2,18 @@ import spark.Spark;
 import spark.Request;
 import spark.Response;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+/*  TODO:
+*   1) learn how to log in on lab computers
+*   2) learn how to implement this local server on the CS computers
+*   3)
+*   4)
+* */
 public class RestfulServer {
+
+    private final Logger log = LoggerFactory.getLogger(RestfulServer.class);
 
     public RestfulServer() {
         this.configureRestfulApiServer();
